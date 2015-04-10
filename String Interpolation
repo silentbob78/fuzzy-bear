@@ -1,0 +1,8 @@
+What string interpolation allows is for a variable to be included in a string based on what is used for entering the variable 
+into the string. The literals for working with strings are the single quote marks, double quote marks, or using %Q or %q. 
+It is important to know which one you need to use for interpolation. For example, using double quote marks:
+  name = Frank
+     => "Welcome, #\"{name}\"" #=. "Welcome, Frank"
+     
+Using single quotes, however will make the result turn out to be: "
+    
